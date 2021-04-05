@@ -1,0 +1,38 @@
+#startPane{
+    -fx-background-image: url("Nato_Flag.png");
+    -fx-background-position: center, center;
+    -fx-alignment: center;
+}
+#titleLabel{
+    -fx-text-fill: "red";
+    -fx-font-family: "Impact";
+    -fx-font-size:  100 ;
+
+}
+.difficulty-Buttons{
+    -fx-text-fill: "darkBlue";
+    -fx-font-size: 30;
+    -fx-font-family: "monospace";
+    -fx-background-color: lightGrey;
+    -fx-alignment: center;
+}
+#choicePane{
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+#unrevealedLocationLabel{
+    -fx-background-color: darkGrey;
+    -fx-border-color: black;
+}
+#revealedLabel {
+    -fx-background-color: lightGrey;
+    -fx-border-color: black;
+    -fx-alignment: center;
+    -fx-font-size: 25 ;
+    -fx-font-family: "Arial";
+}
+#timeLabel {
+    -fx-background-color: lightBlue ;
+    -fx-font-size: 25 ;
+}
+
